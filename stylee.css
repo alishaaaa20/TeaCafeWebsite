@@ -278,7 +278,7 @@ select {
 }
 
 .menu-container {
-  margin: -20px -45px;
+  margin: -20px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -459,4 +459,67 @@ textarea::placeholder {
 .s-m a:hover {
   transform: scale(1.2);
   color: #9bb41a;
+}
+/* Responsive Styles */
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  #home .content {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #about .container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .custom-container {
+    width: 100%;
+  }
+
+  .titles {
+    margin-bottom: 20px;
+  }
+
+  .tab-title ul li:not(:last-of-type) {
+    margin-right: 20px;
+  }
+
+  .common-menu {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .tab-content {
+    margin-top: 20px;
+  }
+
+  .menu-container {
+    margin: -20px;
+  }
+
+  .menu-item {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #review {
+    height: auto;
+  }
+
+  .review {
+    width: 100%;
+  }
+}
+
+/* Tablet and Desktop Styles */
+@media only screen and (min-width: 769px) {
+  /* Add any specific styles for tablet and desktop views here */
 }
