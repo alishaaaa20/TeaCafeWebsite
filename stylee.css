@@ -71,7 +71,7 @@ html {
 }
 #home {
   height: 100vh;
-  background-image: url(images/backg.jpg);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/937/original/backg.jpg?1706107379);
   background-size: cover;
   background-position: center;
 }
@@ -127,7 +127,7 @@ html {
 }
 #about {
   height: 110vh;
-  background-image: url(images/about.jpg);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/936/original/about.jpg?1706107368);
   background-position: center;
   background-size: cover;
   padding-top: 150px;
@@ -317,7 +317,7 @@ h5 {
 }
 #review {
   height: 90vh;
-  background-image: url(/images/contact.jpg);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/938/original/contact.jpg?1706107390);
   background-position: center;
   background-size: cover;
   display: flex;
